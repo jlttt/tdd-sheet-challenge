@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../src/Sheet.php';
 
+use Jlttt\TddChallenge\Sheet;
+
 class SheetTest extends PHPUnit_Framework_TestCase
 {
     protected $sheet;

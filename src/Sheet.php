@@ -1,4 +1,5 @@
 <?php
+namespace Jlttt\TddChallenge;
 
 class Sheet
 {
