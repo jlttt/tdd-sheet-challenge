@@ -9,7 +9,7 @@ before_script:
 script: 
   - composer install --no-interaction --dev
   - pwd
-  - vendor/bin/phpunit --debug --coverage-xml builds/logs/clover/
+  - vendor/bin/phpunit --debug --coverage-clover builds/logs/clover.xml --whitelist src
   - CODECLIMATE_REPO_TOKEN=2a3d383bfff69919569efd114d7e61d881dfdab1aac3728308fefa65ee01809d ./vendor/bin/test-reporter
 notifications:
   on_success: change
