@@ -6,7 +6,7 @@ before_script:
 script: 
   - composer install --no-interaction --dev
   - pwd
-  - phpunit
+  - phpunit --bootstrap vendor/autoload.php tests
 notifications:
   on_success: change
   on_failure: change
