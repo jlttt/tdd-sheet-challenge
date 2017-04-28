@@ -5,6 +5,7 @@ before_script:
   - mkdir -p build/logs/
 script: 
   - composer install --no-interaction --dev
+  - phpunit
 notifications:
   on_success: change
   on_failure: change
