@@ -1,0 +1,6 @@
+{
+    "require": {
+        "atoum/atoum": "^3.0",
+        "phpunit/phpunit": "^5.7"
+    }
+}
