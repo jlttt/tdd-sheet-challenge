@@ -1,7 +1,7 @@
-<phpunit>
+<phpunit colors="true" bootstrap="vendor/autoload.php">
     <testsuites>
         <testsuite name="all">
-            <directory>tests</directory>
+            <directory>tdd-sheet-challenge/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
